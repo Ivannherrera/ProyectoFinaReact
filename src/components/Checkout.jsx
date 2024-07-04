@@ -32,8 +32,8 @@ export const Checkout = () => {
     if (docId) {
         return (
             <>
-                <h1 className='greeting'>The Phone Shop les agradece la confianza depositada, que disfrute de su pedido</h1>
-                <p className='seguimiento-pedido'>Puede hacer el seguimiento de su pedido a través del siguente localizador: {docId}</p>
+                <h1 className='greeting'>AppleShipping les agradece la confianza depositada, que disfrute de su pedido</h1>
+                <p className='seguimiento-pedido'>Puedes realizar el seguimiento de tu pedido a través del siguente localizador: {docId}</p>
             </>
         )
     }
@@ -42,10 +42,10 @@ export const Checkout = () => {
     return (
         <div className='formulario'>
             <form className='formulario-contenedor' onSubmit={handleSubmit(comprar)}>
-                <p>Rellene los datos para poder completar su compra </p>
-                <input className='primer-dato' type='text' placeholder='Por favor, ingrese su nombre 😊' {...register("nombre")}/>
-                <input className='segundo-dato' type='email' placeholder='Por favor, ingrese su em@il 📩' {...register("email")}/>
-                <button className='boton-comprar' type="submit">Comprar</button>
+                <p>Rellene los datos para completar su compra. </p>
+                <input className='primer-dato' type='text' placeholder='Por favor, ingrese su nombre ' {...register("nombre")}/>
+                <input className='segundo-dato' type='email' placeholder='Por favor, ingrese su em@il ' {...register("email")}/>
+                <button className='boton-comprar' type="submit">Comprar!</button>
             </form>
         </div>
     )
