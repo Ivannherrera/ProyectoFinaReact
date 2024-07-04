@@ -5,10 +5,9 @@ export const Footer = () => {
   return (
     <footer className='footer'>
       <div className='footer-contenedor'>
+        <p>Gracias por visitar AppleShipping</p>
       <Link to='/AppleShipping/' className='header-contenedor-footer'></Link>
-    <a href="https://github.com/Ivannherrera/ProyectoFinaReact" target="_blank">
-              Todos los derechos reservados. <i className="fas fa-heart"></i>
-            </a>
+    <a href="https://github.com/Ivannherrera/ProyectoFinaReact" target="_blank">Todos los derechos reservados ©. <i className="fas fa-heart"></i></a>
             </div>
     </footer>
   )
