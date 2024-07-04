@@ -24,7 +24,7 @@ export const NavBar = () => {
         <nav className='nav'>
             <ul className='nav-menu'>
                 <li>
-                    <NavLink to='/ThePhoneShop/' className='nav-link'>Inicio</NavLink>
+                    <NavLink to='/AppleShipping/' className='nav-link'>Inicio</NavLink>
                 </li>
                 {
                     categories.map((categoria) => (

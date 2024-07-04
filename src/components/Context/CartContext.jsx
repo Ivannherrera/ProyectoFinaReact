@@ -3,10 +3,10 @@ import image1 from "../../../public/images/iphone.jpg";
 import image2 from "../../../public/images/s23.jpg";
 import image3 from "../../../public/images/xiaomi14.jpg";
 import image4 from "../../../public/images/ipad.jpg";
-import image5 from "../../../public/images/tabletsamsung.jpg";
-import image6 from "../../../public/images/xiaomitablet.jpg";
+import image5 from "../../../public/images/SamsungGalaxyTabS9Ultra.jpg";
+import image6 from "../../../public/images/XiaomiRedmiPadPro5G.jpg";
 import image7 from "../../../public/images/applewatch.jpg";
-import image8 from "../../../public/images/relojsamsung.jpg";
+import image8 from "../../../public/images/SamsungGalaxyWatch6.jpg";
 
 export const CartContext = createContext();
 

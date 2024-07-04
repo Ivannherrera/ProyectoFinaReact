@@ -25,7 +25,7 @@ function App() {
     <BrowserRouter>
     <Header/>
     <Routes>
-      <Route path='/ThePhoneShop/' element={
+      <Route path='/AppleShipping/' element={
         <>
         <ItemListContainer />
         </>

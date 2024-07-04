@@ -47,7 +47,7 @@ export const ItemDetailContainer = () => {
                 <h3>Categoria: {producto.categoria}</h3>
                 <p>{producto.detalle}</p>
                 <p>Precio: {producto.precio}€</p>
-                <Link to='/ThePhoneShop/' >Volver a Inicio</Link>
+                <Link to='/AppleShipping/' >Volver a Inicio</Link>
                 <button onClick={agregarProducto}>Agregar al Carrito</button>
             </div>
         </div>
